@@ -8,13 +8,11 @@ welcome = "Welcome to my nightmare", "Alice Copper", 1975
 
 bad = "Bad Company" "Bad Company", 1974
 budgie = "Nightflight", "Budgie", 1981
-imelda = "More Mayhem", "Emilda Day", 2011
+imelda = "More Mayhem", "Imelda Day", 2011
 metallica = "Ride the lightning", "Metallica", 1984
 
 print(metallica)
-print(metallica[0])
-print(metallica[1])
-print(metallica[2])
-
-
-metallica[0] = "Master of puppets"
+title, artist, year = imelda
+print(title)
+print(artist)
+print(year)
